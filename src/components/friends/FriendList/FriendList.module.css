@@ -1,0 +1,20 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.friendsList {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.friendsItem {
+   padding: 15px; 
+   border: 1px solid #131212;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+}

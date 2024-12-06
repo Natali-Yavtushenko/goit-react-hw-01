@@ -1,0 +1,13 @@
+
+.friendavatar {
+margin-bottom: 10px;
+}
+
+
+.isOnline {
+color: green;
+}
+
+.isOffline {
+color: red;
+}

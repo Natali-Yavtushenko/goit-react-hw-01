@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import userData from './components/Profile/userData.json'
 
+import userData from './components/Profile/userData.json'
+import friends from './components/friends/friends.json'
 import Profile from "./components/Profile/Profile"
+import FriendList from './components/friends/FriendList/FriendList'
+
 
 const App = () => {
   return (
@@ -16,6 +15,7 @@ const App = () => {
         avatar={userData.avatar}
         stats={userData.stats}
       />
+      <FriendList friends={friends} />
     </>
   );
 };

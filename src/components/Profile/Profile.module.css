@@ -1,4 +1,6 @@
 .container {
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     border: 3px solid #0f0f0f;
@@ -20,6 +22,7 @@
 width: 300px;
 background-color: rgba(0, 0, 0, 0.753);
   border-radius: 50%;
+  margin-top: 15px;
 }
 
 .username {
