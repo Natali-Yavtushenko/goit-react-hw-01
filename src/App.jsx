@@ -2,18 +2,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import userData from './userData.json'
+import userData from './components/Profile/userData.json'
 
-import Profile from "./components/Profile"
+import Profile from "./components/Profile/Profile"
 
 const App = () => {
   return (
     <>
       <Profile
-        name={userData.username}
+        username={userData.username}
         tag={userData.tag}
         location={userData.location}
-        image={userData.avatar}
+        avatar={userData.avatar}
         stats={userData.stats}
       />
     </>
