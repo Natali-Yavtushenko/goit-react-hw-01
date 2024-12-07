@@ -1,0 +1,29 @@
+.table {
+ width: 100%; 
+ margin-left: auto;  
+ margin-right: auto;
+ margin-bottom: 15px;
+}
+
+.thead {
+  background-color: rgb(27, 26, 26);  
+  color: aliceblue;
+}
+
+.th {
+    width: calc(100% / 3);
+   height: 50px;
+font-size: 25px;
+}
+
+.tr:nth-of-type(even) {
+    background-color: rgb(148, 151, 151);
+  }
+
+.td {
+   text-align: center; 
+   font-size: 25px;
+   font-weight: 400;
+   border-bottom: 2px solid rgb(27, 26, 26);
+   border-right: 2px solid rgb(27, 26, 26);
+}
